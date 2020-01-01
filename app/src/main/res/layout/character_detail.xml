@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/item_detail"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+  <LinearLayout
+      android:id="@+id/character_hp_layout"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/character_hp"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textIsSelectable="true"
+        tools:context=".characters.CharacterDetailFragment"/>
+
+    <Button
+        android:id="@+id/hp_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="@string/hp_minus"/>
+    <Button
+        android:id="@+id/hp_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="@string/hp_plus"/>
+  </LinearLayout>
+
+  <FrameLayout
+      android:id="@+id/frameLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <include layout="@layout/trait_list"/>
+  </FrameLayout>
+  <Button
+      android:id="@+id/character_trait_add"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:minHeight="0dp"
+      android:minWidth="0dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginStart="16dp"
+      android:text="@string/character_trait_add"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Campaigns</string>
+
+  <string name="ok">OK</string>
+  <string name="cancel">Cancel</string>
+  <string name="delete">Delete</string>
+
+  <string name="characters_title">Characters</string>
+  <string name="characters_detail_title">Character</string>
+  <string name="character_name_hint">new character name</string>
+  <string name="character_trait_add">+ Add trait</string>
+
+  <string name="traits_list_title">Traits</string>
+  <string name="trait_name_hint">new trait</string>
+
+  <string name="hp_label">HP:</string>
+  <string name="hp_plus">+</string>
+  <string name="hp_minus">-</string>
+  <string name="hp_separator">/</string>
+</resources>
